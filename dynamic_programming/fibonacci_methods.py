@@ -156,5 +156,5 @@ def plot_performance():
     plt.show()
 
 # Test fonksiyonlarını çalıştırmak için aşağıdaki satırların yorumunu kaldırabilirsiniz
-test_functions()
-# plot_performance()
+#test_functions()
+plot_performance()

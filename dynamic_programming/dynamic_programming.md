@@ -4,6 +4,9 @@
 
 **Amaç:** İki dizi arasındaki en uzun ortak alt diziyi bulmak.
 
+**Açıklama:** iki dizide bulunan, sırayı bozmadan ama ardışık olmadan bulunan en uzun diziyi ifade eder. Örneğin, "ABCD" ve "AEBD" dizilerinde en uzun ortak alt dizi "ABD"’dir.
+LCS problemini çözmek için dinamik programlama kullanabiliriz. Dinamik programlama yaklaşımında, önce küçük alt problemleri çözüp daha büyük problemleri bu alt problemlerin çözümlerinden oluştururuz.
+
 **Yaklaşım:**
 
 1. **Son Karakterlerden Başlama:**
@@ -54,6 +57,12 @@
 
 **Amaç:** Verilen miktarı, en az sayıda bozukluk kullanarak elde etmek.
 
+**Açıklama:**  dinamik programlama tekniklerini kullanarak çözülebilen klasik bir bilgisayar bilimi problemidir. Problem genellikle iki şekilde formüle edilir:
+
+ 1. Minimum Coin Sayısı: Belirli bir toplam para değerine ulaşmak için verilen farklı madeni para değerlerinden en az sayıda kullanarak toplamı bulmak.
+ 2. Toplam Kombinasyon Sayısı: Belirli bir toplam para değerine ulaşmanın kaç farklı yolu olduğunu bulmak.
+
+Aşağıda her iki problem için açıklamalar ve çözümler bulunmaktadır.
 **Yaklaşım:**
 
 1. **Hedef Miktardan Başlama:**
